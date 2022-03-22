@@ -49,24 +49,23 @@ class Calculator extends React.Component{
             <div>
                 <h1>React Calculator </h1>
                <form>
-                <div>
-                <label>First Number: </label>
+                <div id = "container">
+                <label id = "number1">First Number: </label>
                 <input type ="number" id = "firstNumber" value ={this.state.firstNumber} onChange ={this.handlefirstNumber}/>
                <br></br>
                <br></br>
-                <label>Second Number: </label>
+                <label id = "number2">Second Number: </label>
                 <input type ="number" id = "secondNumber" value ={this.state.secondNumber} onChange ={this.handlesecondNumber}/>
                 <br></br>
                 <br></br>
-                <label>Result: </label>
-
+                <label id = "display">Result: </label>
                <input type ="number" id = "result" value = {this.state.result} onChange ={this.handleresult}/>
                 <br></br>
                 <br></br>
-                <button type = "submit" onClick={this.add}>Add</button>&nbsp;    
-                <button type = "submit" onClick={this.sub}>Sub</button>&nbsp;
-                <button type = "submit" onClick={this.mul}>Mul</button>&nbsp;    
-                <button type = "submit" onClick={this.div}>Div</button>&nbsp;
+                <button type = "submit" id = "add" onClick={this.add}>Add</button>&nbsp;    
+                <button type = "submit" id = "sub" onClick={this.sub}>Sub</button>&nbsp;
+                <button type = "submit" id = "mul" onClick={this.mul}>Mul</button>&nbsp;    
+                <button type = "submit" id = "div" onClick={this.div}>Div</button>&nbsp;
                 </div>
                 </form>
                 
