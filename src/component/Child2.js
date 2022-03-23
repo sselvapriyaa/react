@@ -1,5 +1,5 @@
 function Child2({selectedMessage}){
-    return (
-        
-    )
+return(
+        <div></div>
+);   
 }

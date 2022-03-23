@@ -14,13 +14,13 @@ function ParentToChild(props){
         setData("This data is being passed from parent to child");
     }
     const childToParent  =() =>{
-
+    }
 function Child ({dataParentToChild}){
     return(
         <div>
             {dataParentToChild}
         </div>
-    )
+    );
 }
-
+}
 export default Parent;

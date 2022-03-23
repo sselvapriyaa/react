@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+//import CalculatorFunction from './component/CalculatorFunction';
+import CalculatorHooks from './component/CalculatorHooks';
+//import MyFunctionCalculator from './component/MyFunctionCalculator';
 //import './index.css';
-import Calculator from './component/Calculator';
+//import Calculator from './component/Calculator';
 //import CalcultorHook from './component/CalculatorHook';
 //import Demo from './component/Demo';
 import reportWebVitals from './reportWebVitals';
@@ -12,10 +14,12 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator />
+   <CalculatorHooks/>
    {
+   
   /* 
-  
+     <CalculatorFunction/>
+   <Calculator />
      <MyApp/>
   <Demo/>
   <EffectNew/>
