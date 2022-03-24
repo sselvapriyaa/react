@@ -1,4 +1,79 @@
-.demo1{
-    background-color: lightgreen;
-    color: white;
+body{
+    margin: 30px;
+    text-align: center;
+    font-size: 15px;
 }
+*{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;   
+  } 
+.heading{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px red;
+    font-size: 5vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;      
+}
+.labelStyle {
+    color: rgb(0, 102, 128);
+    background-color: #8752A1;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 10px;           
+}
+.inputStyle{
+    margin-left: 20px;
+    width: 200px;
+    padding: 1em;    
+}
+.selectStyle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 252, 169);  
+    font-size: 16px;
+    padding: 1em;       
+}
+.selectLabel{
+    background-color: #8752A1;
+    color: white;
+    padding-left: 50px;
+    padding: 1em;
+}
+.buttonStyle{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    width: 80px;
+    height: 30px;
+}
+.textareaStyle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    padding: 1em;
+    width: 200px;    
+    height: 50px;
+}
+.addressStyle{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #8752A1;
+    color: white;
+    padding: 1em;
+    padding-bottom: 10px;
+}
+.childContainer{
+    background-color: antiquewhite;
+    margin-top: 10px;    
+    padding-bottom: 40px;
+    padding: 1em;
+    text-align: center;
+    font-size: 16px;
+}
+
+

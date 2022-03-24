@@ -2,15 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
-background-color:blye;
-color: white;
+background-color:blue;
+color: black;
 font-size: 32px;
 `;
 
 function StyledDemo() {
     return (
         <div>
-            <StyledButton>Login</StyledButton>
+            <StyledButton>Submit</StyledButton>
         </div>
     );
 }
