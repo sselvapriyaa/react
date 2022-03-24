@@ -7,17 +7,45 @@
 //import ParentToChild from ''./component/ParentToChild';
 //import Child1 from './component/Child1';
 //import Demo from './component/Demo';
-import {BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import Home from './component/Home';
-import Profile from './component/Profile';
-import About from './component/About';
-import Error from './component/Error';
+//import {BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+//import Home from './component/Home';
+//import Profile from './component/Profile';
+//import About from './component/About';
+//import Error from './component/Error';
+//import ChildForm from './component/ChildForm';
+//import StylingComponent from './component/StylingComponent.js';
+//import StyledDemo from './component/StyledDemo';
+import ParentForm from './component/ParentForm';
+//import CommonStyles from './component/CommonStyles';
+
+//import styles from mystyle.module.css;
+//import App from './App';
+//import Form from './component/Form';
+//import DisplayForm from './component/DisplayForm';
 
 function App() {
-  /*const[selectedMessage, setMessage] = useState('empty');*/
+  /*const [selectedMessage, setMessage] = useState('empty');*/
+  /*const [setInfo, displayInfo] = useState('')
+  const [user, changeUser] = useState('userA');
+  const numbers  = [1,2,3,4,5];
+  const name  = "Priya"*/
+  //const [setInfo] = useState('');
+
   return (  
    <div className="App">
-    {/* <h1>Hello World from React!</h1>
+    <ParentForm/>
+    
+  
+    
+    {/*   
+        <CommonStyles/>
+      <h1>Hello World from React!</h1>
+     <Form/>
+      <DisplayForm/>
+     <ParentForm/>
+     <StylingComponent/>
+    <StyledDemo/>
+    <h1>Hello World from React!</h1>
      <Router>
        <nav>
          <ul>
@@ -42,10 +70,10 @@ function App() {
      
     <Calculator/>
     <Demo/>
-      <StyledDemo/>
+     
       <ParentToChildComponent/> 
       <FirstComponent/>
-  
+    
      
       <Child2 selectedMessage={selectedMessage}/>
   <Child1 setMessage={setMessage}/>*/}
