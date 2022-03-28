@@ -7,22 +7,31 @@
 //import ParentToChild from ''./component/ParentToChild';
 //import Child1 from './component/Child1';
 //import Demo from './component/Demo';
-//import {BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-//import Home from './component/Home';
+////import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+//import LoginForm from './component/LoginForm';
+import Home from './component/Home';
 //import Profile from './component/Profile';
 //import About from './component/About';
 //import Error from './component/Error';
+//import Redirect from './component/Redirect';
+//import LoginSuccessPage from './component/LoginSuccessPage';
+//import InvalidLoginPage from './component/InvalidLoginPage';
+//import Failure from './component/Failure';
+//import Success from './component/Success';
+//import ParentComponent from './component/ParentComponent';
+//import UserDetailsForm from './component/UserDetailsForm';
 //import ChildForm from './component/ChildForm';
 //import StylingComponent from './component/StylingComponent.js';
 //import StyledDemo from './component/StyledDemo';
-import ParentForm from './component/ParentForm';
+//import ParentForm from './component/ParentForm';
 //import CommonStyles from './component/CommonStyles';
-
+import ParentForm from './component/ParentForm';
 //import styles from mystyle.module.css;
 //import App from './App';
 //import Form from './component/Form';
 //import DisplayForm from './component/DisplayForm';
 
+//import LoginForm from './component/LoginForm';
 function App() {
   /*const [selectedMessage, setMessage] = useState('empty');*/
   /*const [setInfo, displayInfo] = useState('')
@@ -30,42 +39,64 @@ function App() {
   const numbers  = [1,2,3,4,5];
   const name  = "Priya"*/
   //const [setInfo] = useState('');
+  /*const users = [ {name:'John', password:'john', email:'john@gmail.com'},
+  {name:'Mike', password:'mike', email:'mike@yahoo.com'}];*/
 
+//const name ="Priya"
   return (  
    <div className="App">
-    <ParentForm/>
-    
+       <ParentForm/>
+       
+      {/*  <LoginForm users={users}/>
+
   
+      <ParentForm/>
+       <ParentComponent/>   
+    <UserDetailsForm/>
     
-    {/*   
+    <ParentForm/>
         <CommonStyles/>
       <h1>Hello World from React!</h1>
      <Form/>
       <DisplayForm/>
-     <ParentForm/>
+ 
      <StylingComponent/>
     <StyledDemo/>
-    <h1>Hello World from React!</h1>
-     <Router>
-       <nav>
-         <ul>
+  <h1>Hello World from React!</h1> */}
+    {/*<Router>*/}
+    {/*  <nav>
+
+      </nav> */}
+      {/*</Router> <nav>
+        <ul>
            <li><Link to = "./home">Home Page</Link></li>
            <li><Link to = "./about">About Us</Link></li>
            <li><Link to = "./profile">Profile</Link></li>
-         </ul>
-       </nav>
-       <Routes>
-          <Route path = "./home" element  = {<Home/>}/>
+        </ul> 
+       </nav>*/}
+      {/*<Routes>*/}
+           {/*<Route path = "./home" element  = {<Home/>}/>
            <Route path = "./about" element  = {<About Us/>}/>
            <Route path = "./profile" element  = {<Profile/>}/>
-           <Route path = "*" element  = {<Error/>}/>
-       </Routes>
-       <Redirect/>
-     </Router>
+           <Route path = "./success" element  = {<Success/>}/>
+           <Route path = "./failure" element  = {<Failure/>}/>
+         <Route path = "*" element  = {<Home/>}/>*/}
+         {/* <Route path = "*" element  = {<Home/>}/>
+         <Route path = "/home" element  = {<Home/>}/>*/}
+
+        {/*<Route path = "*" element  = {<Home/>}/>
+         <Route path = "/success" element  = {<Success name ={name}/>}/>
+          <Route path = "/failure" element  = {<Failure/>}/>*/}
+
+         {/*<Route path = "./LoginSuccessPage" element  = {<LoginSuccessPage/>}/>
+         <Route path = "./InvalidLoginPage" element  = {<InvalidLoginPage/>}/>*/}
+       {/*</Routes>*/}
+       {/*<Redirect/>*/}
+      {/*</Router> */}
     
      </div>
 
-      <div className='demo'>
+     /* <div className='demo'>
       <h1>Hello World from React!</h1>
      
     <Calculator/>
@@ -76,8 +107,8 @@ function App() {
     
      
       <Child2 selectedMessage={selectedMessage}/>
-  <Child1 setMessage={setMessage}/>*/}
-     </div>
+  <Child1 setMessage={setMessage}/>
+</div> */
      
   );
 }
