@@ -27,18 +27,17 @@ function ParentForm(){
         console.log(values);
         setHobbies(values);
     }
-    // sending data to the child form
-    const setFormData =() =>{
-       setData({
-           fn: firstName,
-           ln: lastName,
-           ag: age,
-           addr: address,
-           hobby: hobbies,
-
-       });
-        
+    const handleSubmit = () => {
+       setData({  
+        firstName: firstName, 
+        lastName: lastName, 
+        age: age,
+        address: address,
+        hobbies: hobbies
+      
+    });
     }
+    
     const containerStyle = {
         backgroundColor: "lightpink",
         marginTop: "30px",
@@ -69,24 +68,26 @@ function ParentForm(){
             <br></br>
             <br></br>
             <select className = {styles.selectStyle} multiple onChange = {hobbiesChange} >
-                <option value = "Walking, ">Walking</option>
-                <option value = "Reading, ">Reading</option>
-                <option value = "Music, ">Music</option>
-                <option value = "Dancing, ">Dancing</option>
-                <option value = "Painting, ">Painting</option>
-                <option value = "Hiking, ">Hiking</option>
+                <option value = "Walking">Walking</option>
+                <option value = "Reading">Reading</option>
+                <option value = "Music">Music</option>
+                <option value = "Dancing">Dancing</option>
+                <option value = "Painting">Painting</option>
+                <option value = "Hiking">Hiking</option>
             </select>
             <br></br>
             <br></br>
+        
+          <ChildForm     
+            data = {data}/> 
+                   
+            <br></br>
            
-            <ChildForm data = {data}/>
+            <button className = {styles.buttonStyle} onClick={()=>handleSubmit()}>Submit</button> 
+           
             <br></br>
-            <button className = {styles.buttonStyle} onClick={()=> setFormData()}>Submit</button> 
-            <br></br>
-            <br></br>      
-        </div>
-   
-         
+            <br></br>           
+        </div> 
     );
 }
 
