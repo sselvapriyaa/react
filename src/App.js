@@ -9,7 +9,7 @@
 //import Demo from './component/Demo';
 ////import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //import LoginForm from './component/LoginForm';
-import Home from './component/Home';
+//import Home from './component/Home';
 //import Profile from './component/Profile';
 //import About from './component/About';
 //import Error from './component/Error';

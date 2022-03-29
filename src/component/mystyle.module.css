@@ -9,7 +9,6 @@ body{
     font-weight: 500;   
   } 
 .heading{
-    text-transform: uppercase;
     text-shadow: 2px 2px 5px red;
     font-size: 5vw;
     padding-bottom: 10px;

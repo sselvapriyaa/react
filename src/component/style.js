@@ -6,7 +6,6 @@ const TodoComponent ={
     boxSizing: "border-box"
 }
 
-
 const Header ={
     padding: "10px 20px",
     textAlign: "center",
