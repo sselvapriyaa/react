@@ -21,14 +21,35 @@ body{
     color: white;
     margin-left: 20px;
     font-size: 18px;
-    padding: 10px;           
+    padding: 10px;         
 }
 .inputStyle{
     margin-left: 20px;
     width: 200px;
-    padding: 1em;    
+    padding: 1em; 
 }
-.selectStyle{
+.buttonStyle{
+    font-size: 1em;
+    margin: 1em;
+    padding: 0.25em 1em;
+    background-color: purple;
+    border: 2px solid tomato;
+    border-radius: 3px;
+    color: tomato;
+    border-color: tomato;
+}
+.backButton{  
+    font-size: 1em;
+    margin: 1em;
+    padding: 0.25em 1em;
+    background-color: #0a0a23;
+    border: 2px solid tomato;
+    border-radius: 3px;
+    color: tomato;
+    border-color: tomato;   
+}
+
+/*.selectStyle{
     width: 100px;
     height: 100px;
     background-color: rgb(238, 252, 169);  
@@ -73,6 +94,6 @@ body{
     padding: 1em;
     text-align: center;
     font-size: 16px;
-}
+}*/
 
 

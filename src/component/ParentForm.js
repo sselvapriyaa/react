@@ -44,8 +44,7 @@ function ParentForm(){
         paddingBottom: "300px"
     } 
         
-    return(
-        
+    return(     
             <div className = "parentContainer" style = {containerStyle}>
              <h1 className = {styles.heading}> React Form </h1>  
             <label className = {styles.labelStyle}> First Name: </label>

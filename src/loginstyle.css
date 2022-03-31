@@ -1,0 +1,39 @@
+body{
+    margin: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+*{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;   
+  } 
+.heading{
+    text-shadow: 2px 2px 5px red;
+    font-size: 5vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;      
+}
+.labelStyle {
+    color: rgb(0, 102, 128);
+    background-color: #8752A1;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 10px;           
+}
+.inputStyle{
+    margin-left: 20px;
+    width: 200px;
+    padding: 1em;    
+}
+.buttonStyle{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    width: 80px;
+    height: 30px;
+}
