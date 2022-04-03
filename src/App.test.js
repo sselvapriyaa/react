@@ -1,8 +1,16 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitForElementToBeRemoved } from '@testing-library/react';
 import App from './App';
-
-test('renders learn react link', () => {
+/*
+describe("Testing App component",() =>{
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const userName  = await screen.findByText
+  test("user's name is rendered") 
+
+test('Loading text appearing..", async () => {
+  render(<App />);
+  const loadingText = screen.getByText('Loading...');
+  expect(loadingText).toBeInTheDocument();
+  await waitForElementToBeRemoved(()=> screen.getByText('Loading..,'));
+
 });
+});*/
