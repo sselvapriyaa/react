@@ -25,7 +25,12 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 test('renders my budget planner heading', () =>{
   render(<App />);
-  const headingElement = screen.getByText('My Budget Planner');
+  //screen.debug();
+  //const headingElement = screen.getByText(/My/);
+  //const headingElement = screen.getByText(/ Budget/);
+  //const headingElement = screen.getByText(/ Planner/);
+  const headingElement = screen.getByText(/My Budget Planner/);
+
   expect(headingElement).toBeInTheDocument();
 });
 
