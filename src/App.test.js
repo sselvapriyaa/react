@@ -21,7 +21,10 @@ describe('currencyFormat', () => {
     expect(currencyFormat(1000)).toBe(`$1,000.00`);
   });
 });*/
+
+
 import { render, screen } from '@testing-library/react';
+//import {getByLabelText, screen} from '@testing-library/react'
 import App from './App';
 test('renders my budget planner heading', () =>{
   render(<App />);
@@ -30,10 +33,18 @@ test('renders my budget planner heading', () =>{
   //const headingElement = screen.getByText(/ Budget/);
   //const headingElement = screen.getByText(/ Planner/);
   const headingElement = screen.getByText(/My Budget Planner/);
-
   expect(headingElement).toBeInTheDocument();
+
 });
 
+//import {screen, getByLabelText} from '@testing-library/dom'
+
+// With screen:
+//const inputNode1 = screen.getByLabelText('Name')
+
+// Without screen, you need to provide a container:
+//const container = document.querySelector('#app')
+//const inputNode2 = getByLabelText(container, 'Name')
 
 
 

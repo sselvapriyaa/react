@@ -31,53 +31,46 @@
 //import Form from './component/Form';
 //import DisplayForm from './component/DisplayForm';
 //import LoginForm from './component/LoginForm';
-//import React, {Fragment} from 'react';
-//import Header from './component/Layout/Header';
-//import Meals from './component/Meals/Meals';
+import {useState} from 'react';
+import Header from './component/Layout/Header';
+import Meals from './component/Meals/Meals';
+import Cart from './component/Cart/Cart';
+import CartProvider from './store/CartProvider';
 //import styles from mystyle.module.css;
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Budget from './components/Budget';
-import RemainingBudget from './components/Remaining';
-import ExpenseTotal from './components/ExpenseTotal';
-import ExpenseList from './components/ExpenseList';
-import AddExpenseForm from './components/AddExpenseForm';
-import {AppProvider} from './context/AppContext';
+//import React from 'react';
+
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import Budget from './components/Budget';
+//import RemainingBudget from './components/Remaining';
+//import ExpenseTotal from './components/ExpenseTotal';
+//import ExpenseList from './components/ExpenseList';
+//import AddExpenseForm from './components/AddExpenseForm';
+//import {AppProvider} from './context/AppContext';
+//import Aboutpage from './component/Aboutpage';
 
 const App = () => {
+  const[cartIsShown, setCartIsShown] = useState(false);
+  const showCartHandler = () =>{
+    setCartIsShown(true);
+
+  };
+  const hideCartHandler = () =>{
+    setCartIsShown(false);
+
+  };
   return ( 
-     <AppProvider>
-       <div className='container'>
-      <h1 className='mt-3'> My Budget Planner </h1> 
-      <div className='row mt-3'>
-        <div className='col-sm'>
-          <Budget />
-        </div>
-        <div className='col-sm'>
-          <RemainingBudget />
-        </div>
-        <div className='col-sm'>
-          <ExpenseTotal />
-        </div>
-        </div>
-        <h3 className='mt-3'>Expenses</h3>
-        <div className='row'>
-        <div className='col-sm'>
-        <ExpenseList />
-        </div>
-        </div>
-        <h3 className='mt-3'>Add Expense</h3>
-        <div className='row mt-3'>
-        <div className='col-sm'>
-          <AddExpenseForm />
-        </div>
-        </div>
-        </div>
-     </AppProvider>
+    <CartProvider>
+      {cartIsShown && <Cart onClose = {hideCartHandler}/>}
+    <Header onShowCart = {showCartHandler}/>
+    <main>
+      <Meals />
+    </main>
+    </CartProvider>
     
       );
     };
     export default App;
+   /* <Aboutpage/>*/
   /*const [selectedMessage, setMessage] = useState('empty');*/
   /*const [setInfo, displayInfo] = useState('')
   const [user, changeUser] = useState('userA');
