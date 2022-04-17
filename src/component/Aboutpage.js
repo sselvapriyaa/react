@@ -21,28 +21,25 @@ const About = () => (
         fontSize: "20px",
       }}
     >
-      I am a Full-Stack Web Developer with experience in project management and customer service. I
-      love working on strong, collaborative teams toward a common goal, and I find great satisfaction in improving efficiency and finishing projects on time and under-budget. 
-      Those who know me best describe me as honest, organized, detail-oriented, and dependable.
+      I am a Full-Stack Developer with a strong work ethic. I love working on
+      collaborative teams, and passionate about learning new programming languages.
     </p>
     <p
       style={{
         fontSize: "20px",
       }}
     >
-      Learning new web technologies is my current passion! I enjoyed my time in a Full-Stack Web Development boot camp, 
-      where I learned a wide variety of languages and tools. Some of these include JavaScript, React, HTML, CSS,
-      Bootstrap, Node.js, Express, MongoDB, MySQL, GitHub, and VS Code.
+      I enjoy my time in a Full-Stack Development returnship, 
+      where I learned a wide variety of languages and tools. Some of these include 
+      JavaScript, React, HTML, CSS, Node.js, SQL, GitHub, and VS Code.
     </p>
     <p
       style={{
         fontSize: "20px",
       }}
     >
-      Though I grew up in the Midwest, I currently live in Southern Utah. When I
-      am not in front of a computer, I enjoy spending time with my family,
-      especially watching my kids perform their talents in singing, running, and
-      gymnastics. Staying fit and serving in my church and community are also important to me.
+      I grew up in India and I currently live in Wisconsin. I enjoy spending time with my family,
+      especially watching my son perform his talents in music. 
     </p>
   </div>
 );

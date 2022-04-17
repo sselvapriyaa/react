@@ -32,10 +32,10 @@
 //import DisplayForm from './component/DisplayForm';
 //import LoginForm from './component/LoginForm';
 import {useState} from 'react';
-//import Header from './component/Layout/Header';
-//import Meals from './component/Meals/Meals';
-//import Cart from './component/Cart/Cart';
-//import CartProvider from './store/CartProvider';
+import Header from './component/Layout/Header';
+import Meals from './component/Meals/Meals';
+import Cart from './component/Cart/Cart';
+import CartProvider from './store/CartProvider';
 //import styles from mystyle.module.css;
 //import React from 'react';
 
@@ -59,13 +59,13 @@ const App = () => {
 
   };
   return ( 
-   {/* <CartProvider>
+    <CartProvider>
       {cartIsShown && <Cart onClose = {hideCartHandler}/>}
     <Header onShowCart = {showCartHandler}/>
     <main>
       <Meals />
     </main>
-  </CartProvider>*/}
+    </CartProvider>
     
       );
     };
