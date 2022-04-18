@@ -13,7 +13,7 @@ useEffect(() => {
 
 console.log("The button of the "​
 
-+ componentName + " is clicked;​
++ componentName + " is clicked"​
 
 + counter + " times.");
 
