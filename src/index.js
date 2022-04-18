@@ -16,7 +16,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>, document.querySelector("#root"));
+    <App/>
    
    {
    
